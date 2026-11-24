@@ -1,0 +1,246 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Keyboard",
+      "category": "Electronics",
+      "brand": "Logitech",
+      "price": 2500,
+      "stock": 25,
+      "description": "Wireless keyboard with USB receiver and quiet keys.",
+      "createdAt": "2026-01-10T10:00:00.000Z",
+      "updatedAt": "2026-01-10T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Noise Cancelling Headphones",
+      "category": "Electronics",
+      "brand": "Sony",
+      "price": 4200,
+      "stock": 14,
+      "description": "Premium over-ear wireless headphones with deep bass.",
+      "createdAt": "2026-01-12T10:30:00.000Z",
+      "updatedAt": "2026-01-12T10:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "4K Monitor",
+      "category": "Electronics",
+      "brand": "Dell",
+      "price": 6800,
+      "stock": 9,
+      "description": "27-inch 4K UHD display with excellent color accuracy.",
+      "createdAt": "2026-01-15T08:15:00.000Z",
+      "updatedAt": "2026-01-15T08:15:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "USB-C Hub",
+      "category": "Accessories",
+      "brand": "Anker",
+      "price": 1800,
+      "stock": 31,
+      "description": "Multi-port USB-C hub with HDMI, USB, and SD slots.",
+      "createdAt": "2026-01-18T14:45:00.000Z",
+      "updatedAt": "2026-01-18T14:45:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch Pro",
+      "category": "Accessories",
+      "brand": "Apple",
+      "price": 9000,
+      "stock": 6,
+      "description": "Fitness-focused smartwatch with GPS and heart rate tracking.",
+      "createdAt": "2026-02-01T11:20:00.000Z",
+      "updatedAt": "2026-02-01T11:20:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Premium Desk Lamp",
+      "category": "Home & Living",
+      "brand": "Philips",
+      "price": 3200,
+      "stock": 18,
+      "description": "Minimal LED desk lamp with adjustable brightness.",
+      "createdAt": "2026-02-03T09:00:00.000Z",
+      "updatedAt": "2026-02-03T09:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "name": "Ergonomic Office Chair",
+      "category": "Home & Living",
+      "brand": "Haworth",
+      "price": 15000,
+      "stock": 7,
+      "description": "Comfortable ergonomic chair with lumbar support.",
+      "createdAt": "2026-02-05T15:30:00.000Z",
+      "updatedAt": "2026-02-05T15:30:00.000Z"
+    },
+    {
+      "id": 8,
+      "name": "Cotton Notebook Set",
+      "category": "Stationery",
+      "brand": "Parker",
+      "price": 1100,
+      "stock": 42,
+      "description": "Premium notebook set with dotted paper and durable cover.",
+      "createdAt": "2026-02-07T10:15:00.000Z",
+      "updatedAt": "2026-02-07T10:15:00.000Z"
+    },
+    {
+      "id": 9,
+      "name": "Mechanical Pencil Kit",
+      "category": "Stationery",
+      "brand": "Staedtler",
+      "price": 650,
+      "stock": 58,
+      "description": "Professional mechanical pencil kit for design students.",
+      "createdAt": "2026-02-09T12:40:00.000Z",
+      "updatedAt": "2026-02-09T12:40:00.000Z"
+    },
+    {
+      "id": 10,
+      "name": "Leather Wallet",
+      "category": "Fashion",
+      "brand": "Hidesign",
+      "price": 2800,
+      "stock": 0,
+      "description": "Genuine leather wallet made for daily carry.",
+      "createdAt": "2026-02-10T09:25:00.000Z",
+      "updatedAt": "2026-02-10T09:25:00.000Z"
+    },
+    {
+      "id": 11,
+      "name": "Classic Backpack",
+      "category": "Fashion",
+      "brand": "North Face",
+      "price": 3600,
+      "stock": 27,
+      "description": "Water-resistant backpack with multiple compartments.",
+      "createdAt": "2026-02-12T13:05:00.000Z",
+      "updatedAt": "2026-02-12T13:05:00.000Z"
+    },
+    {
+      "id": 12,
+      "name": "Air Purifier",
+      "category": "Home & Living",
+      "brand": "Philips",
+      "price": 7800,
+      "stock": 11,
+      "description": "Compact HEPA air purifier for bedrooms and offices.",
+      "createdAt": "2026-02-14T07:50:00.000Z",
+      "updatedAt": "2026-02-14T07:50:00.000Z"
+    },
+    {
+      "id": 13,
+      "name": "Bluetooth Speaker Mini",
+      "category": "Electronics",
+      "brand": "JBL",
+      "price": 2400,
+      "stock": 22,
+      "description": "Portable Bluetooth speaker with crisp sound and deep bass.",
+      "createdAt": "2026-02-17T16:00:00.000Z",
+      "updatedAt": "2026-02-17T16:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "name": "Travel Mug",
+      "category": "Accessories",
+      "brand": "Contigo",
+      "price": 1400,
+      "stock": 4,
+      "description": "Insulated travel mug with leak-proof lid.",
+      "createdAt": "2026-02-18T09:45:00.000Z",
+      "updatedAt": "2026-02-18T09:45:00.000Z"
+    },
+    {
+      "id": 15,
+      "name": "Executive Pen Set",
+      "category": "Stationery",
+      "brand": "Montblanc",
+      "price": 5200,
+      "stock": 3,
+      "description": "Luxury pen set designed for professional gifting.",
+      "createdAt": "2026-02-20T11:10:00.000Z",
+      "updatedAt": "2026-02-20T11:10:00.000Z"
+    },
+    {
+      "id": 16,
+      "name": "Satin Shirts Pack",
+      "category": "Fashion",
+      "brand": "Levi's",
+      "price": 2200,
+      "stock": 0,
+      "description": "Pack of premium satin shirts in assorted colors.",
+      "createdAt": "2026-02-21T14:20:00.000Z",
+      "updatedAt": "2026-02-21T14:20:00.000Z"
+    },
+    {
+      "id": 17,
+      "name": "Wall Clock Modern",
+      "category": "Home & Living",
+      "brand": "Ikea",
+      "price": 1900,
+      "stock": 13,
+      "description": "Minimal wall clock with a matte finish and silent movement.",
+      "createdAt": "2026-02-23T08:30:00.000Z",
+      "updatedAt": "2026-02-23T08:30:00.000Z"
+    },
+    {
+      "id": 18,
+      "name": "USB Mouse Wireless",
+      "category": "Accessories",
+      "brand": "Logitech",
+      "price": 1200,
+      "stock": 37,
+      "description": "Compact wireless mouse with silent click technology.",
+      "createdAt": "2026-02-25T12:05:00.000Z",
+      "updatedAt": "2026-02-25T12:05:00.000Z"
+    },
+    {
+      "id": 19,
+      "name": "Laptop Stand",
+      "category": "Electronics",
+      "brand": "Targus",
+      "price": 3000,
+      "stock": 8,
+      "description": "Aluminum laptop stand with cooling vent design.",
+      "createdAt": "2026-02-27T09:35:00.000Z",
+      "updatedAt": "2026-02-27T09:35:00.000Z"
+    },
+    {
+      "id": 20,
+      "name": "Leather Notebook",
+      "category": "Stationery",
+      "brand": "Moleskine",
+      "price": 2300,
+      "stock": 15,
+      "description": "Classic leather-bound notebook for meetings and notes.",
+      "createdAt": "2026-03-01T13:55:00.000Z",
+      "updatedAt": "2026-03-01T13:55:00.000Z"
+    },
+    {
+      "id": 21,
+      "name": "Canvas Tote Bag",
+      "category": "Fashion",
+      "brand": "Baggu",
+      "price": 1700,
+      "stock": 12,
+      "description": "Reusable tote bag with reinforced handles and pockets.",
+      "createdAt": "2026-03-03T09:15:00.000Z",
+      "updatedAt": "2026-03-03T09:15:00.000Z"
+    },
+    {
+      "id": 22,
+      "name": "Office Whiteboard",
+      "category": "Home & Living",
+      "brand": "Quartile",
+      "price": 4300,
+      "stock": 2,
+      "description": "Magnetic whiteboard ideal for home office and planning.",
+      "createdAt": "2026-03-05T15:00:00.000Z",
+      "updatedAt": "2026-03-05T15:00:00.000Z"
+    }
+  ]
+}
