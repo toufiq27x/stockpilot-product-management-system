@@ -167,6 +167,22 @@ test('updates reject invalid data and unknown product fields', async (t) => {
   assert.ok(unknownField.body.errors.some((error) => error.includes('internalNote')));
 });
 
+test('PATCH rejects a non-object body and PUT rejects a mismatched product ID', async (t) => {
+  const baseUrl = await startTestServer(t);
+
+  const invalidPatch = await request(baseUrl, '/products/1', jsonBody('PATCH', null));
+  assert.equal(invalidPatch.response.status, 400);
+  assert.equal(invalidPatch.body.message, 'Product validation failed.');
+
+  const mismatchedId = await request(
+    baseUrl,
+    '/products/1',
+    jsonBody('PUT', { ...seedProduct, id: 2 })
+  );
+  assert.equal(mismatchedId.response.status, 400);
+  assert.ok(mismatchedId.body.errors.some((error) => error.includes('match the product URL')));
+});
+
 test('filtered and paginated product reads remain available', async (t) => {
   const baseUrl = await startTestServer(t);
 

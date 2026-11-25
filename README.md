@@ -19,11 +19,11 @@ The application allows users to:
 
 ## Backend
 
-The backend uses JSON Server to persist product data in `db.json`, with server-side validation for product create and update requests.
+The backend uses Express.js to provide the REST API and persist product data in `db.json`, with server-side validation for product create and update requests.
 
-In this project, the data is stored in `db.json`, and JSON Server exposes it as a REST API at `http://localhost:3000`.
+In this project, the data is stored in `db.json`, and the Express.js server exposes it as a REST API at `http://localhost:3000`.
 
-JSON Server provides the REST routes and JSON-file persistence. `server.js` starts it, serves the dashboard, and validates product create and update requests before they reach the data store.
+`server.js` defines the product routes, serves the dashboard, and validates product create and update requests before saving data to the JSON file.
 
 ## What is REST API?
 
@@ -52,7 +52,7 @@ fetch('/products')
   .then(data => console.log(data));
 ```
 
-This demonstrates how the frontend communicates with the backend over HTTP. The app does not use local arrays or `localStorage` as the source of truth for product data.
+This demonstrates how the frontend communicates with the Express.js backend over HTTP. The app does not use local arrays or `localStorage` as the source of truth for product data.
 
 ## What `fetch()` does
 
@@ -71,6 +71,7 @@ The response can be converted to JSON with `response.json()`.
 ```text
 Product-Management-System/
 ├── package.json
+├── package-lock.json
 ├── server.js
 ├── db.json
 ├── README.md
